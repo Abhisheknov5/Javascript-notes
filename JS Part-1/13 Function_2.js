@@ -160,7 +160,7 @@ console.log("**Arrow Function**");
 // }
 
 const singHappyBirthday = ()=>{
-    console.log("happy birtday day to you...");
+    console.log("happy birthday day to you...");
 }
 singHappyBirthday();
 
@@ -216,7 +216,7 @@ console.log(firstCharacter("Abhishek"));
 // console.log(ans);
 
 const findTarget = (array,target)=>{
-    for(let i=0; i< array.lrngth; i++){
+    for(let i=0; i< array.length; i++){
         if(array[i]===target){
             return i;
         }

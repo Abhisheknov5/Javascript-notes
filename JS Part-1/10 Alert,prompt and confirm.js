@@ -1,6 +1,6 @@
 //Functions to interact with the user: alert,prompt and confirm.
 /*
-1.alert()- Shows a mwssage.
+1.alert()- Shows a message.
  
 2. prompt()- shows a message, input text.It returns the text on ok or,if cancel button or Esc is clicked, null.
  

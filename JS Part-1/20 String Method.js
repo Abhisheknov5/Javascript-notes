@@ -67,7 +67,7 @@ console.log(Str8.indexOf("is"));
 // 9 last Indexof
 console.log("9 lastIndexof Method");
 
-const Str9 = "Apple is Sweer is Fruit";
+const Str9 = "Apple is Sweet is Fruit";
 console.log(Str9.lastIndexOf("is"));
 
 // 10 replace 

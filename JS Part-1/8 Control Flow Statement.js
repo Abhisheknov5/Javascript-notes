@@ -62,7 +62,7 @@ if (score = 0) {
 // if(ages>18){
 //     console.log("You are eligable to vote");
 // }else{
-//     console.log("You are not eligable to vaote");
+//     console.log("You are not eligable to vote");
 // }
 
 var age = 17;
@@ -136,7 +136,7 @@ switch (area) {
         console.log("the area of the rectangle is :" + (l * b));
         break;
     default:
-        console.log("Please enetr valid data");
+        console.log("Please enter valid data");
 
 }
 

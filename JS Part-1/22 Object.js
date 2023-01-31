@@ -9,7 +9,7 @@ console.log(Person);
 
 // Creating a Javascript Object
 // 1 Object Literal
-console.log("1 Objecct Literal")
+console.log("1 Object Literal")
 const Person1 = {firstName: "Abhishek",lastName:"Kumar",age:25,eyeColor:"blue"};
 console.log(Person1.firstName + " is " + Person1.age + " years old.");
 

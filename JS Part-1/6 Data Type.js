@@ -13,7 +13,7 @@ console.log(t);
 
 // Array Data type
 
-let a = ["Abhishek","Amna","Alok"];
+let a = ["Abhishek","Aman","Alok"];
 console.log(a);
 
 //Object Data type
@@ -21,7 +21,7 @@ let car ={name:"Magnite",color:"black"};
 console.log(car);
 
 //types of operator
- let s = typeof "Abhioshek";
+ let s = typeof "Abhishek";
  console.log(s);
 
  let u ="Aman";

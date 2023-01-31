@@ -9,7 +9,7 @@ const str2 = "Hello World!";
 console.log(str1);
 console.log(str2);
 
-// A string can also be treated like Zeroindex based character Array.
+// A string can also be treated like Zero index based character Array.
 console.log("String as Array");
 
 const str = "Hello World";

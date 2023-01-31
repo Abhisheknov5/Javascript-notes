@@ -2,7 +2,7 @@
 // declare variable with the let keyword
 
 let firstName = "Abhishek";
-firstName = "Abhishek Kuamr";; 
+firstName = "Abhishek Kumar";; 
 console.log(firstName);
 
 
