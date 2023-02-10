@@ -112,3 +112,36 @@ const Person9 = {
 }
 delete Person9.age;
 console.log(Person9.firstName + " is " + Person9.age + " years old.");
+
+// Nested Objects
+console.log('Nested Objects');
+
+const myObj = {
+    name:"Abhishek",
+    age:22,
+    cars: {
+        car1:"Ford",
+        car2:"BMW",
+        car3:"Fiat"
+    }
+}
+console.log(myObj.cars.car2);
+console.log(myObj.cars["car2"]);
+console.log(myObj["cars"]["car2"]);
+
+let p1 = "cars";
+let p2 = "car2"
+console.log(myObj[p1][p2]);
+
+// Nested Arrays and Objects
+console.log('Nested Arrays and Objects');
+
+const myObj1 = {
+    name:"Abhishek",
+    age: 25,
+    cars: [
+        {name:"Ford",models:["Fiesta","Focus"]},
+        {name:"BMW",models:["320","X3"]},
+        {name:"Fiat",models:["500","Panda"]}
+    ]
+}

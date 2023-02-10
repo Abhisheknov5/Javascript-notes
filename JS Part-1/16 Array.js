@@ -51,7 +51,7 @@ console.log(persons);
 console.log("Length Property")
 const fruits = ["Apple","Banana","Orange","Mango"]
 let length = fruits.length;
-console.log(fruits);
+console.log(length);
 
 //Accessing the First Array Element
 console.log("Accessing the First Array Element");
@@ -154,6 +154,7 @@ console.log(myFriends.length - 1);
 console.log(myFriends.length);
 
 // We use for loop to navigate
+console.log('for loop');
 var myFriends =['Abhishek','Aman','Arjun','Vishal','Arjun'];
 for(var i=0;i<myFriends.length;i++){
     console.log(myFriends[i]);
@@ -161,11 +162,12 @@ for(var i=0;i<myFriends.length;i++){
 // After ES6 we have far ..in and for..of loop too
 // for in
 console.log("in");
-var myFriends =['Abhishek','Aman','Arjun','Vishal','Arjun'];
+var myFriends = ['Abhishek','Aman','Arjun','Vishal','Arjun'];
 for(let elements in myFriends){
     console.log(elements);
 }
 // for of
+console.log("of");
 for(let elements of myFriends){
     console.log(elements);
 }
@@ -179,6 +181,7 @@ myFriends.forEach(function(element,index,array){
 });
 
 //Fat Arrow Function
+console.log('Fat Arrow Function');
 myFriends.forEach((element, index, array)=>{
     console.log(element + " index : " + index + " " + array);
 });
